@@ -1,0 +1,4 @@
+package tn.tp.bibliotheque.authservice.service;
+
+public class JwtService {
+}

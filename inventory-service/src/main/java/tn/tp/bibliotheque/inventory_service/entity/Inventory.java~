@@ -1,0 +1,4 @@
+package tn.tp.bibliotheque.inventory_service.entity;
+
+public class Inventory {
+}

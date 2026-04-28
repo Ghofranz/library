@@ -1,0 +1,4 @@
+package tn.tp.bibliotheque.search_service.dto;
+
+public class InventoryDto {
+}

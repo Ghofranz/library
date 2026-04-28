@@ -1,0 +1,4 @@
+package tn.tp.bibliotheque.search_service.service;
+
+public class SearchService {
+}

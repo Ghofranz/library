@@ -1,0 +1,4 @@
+package tn.tp.bibliotheque.authservice.config;
+
+public class SecurityConfig {
+}

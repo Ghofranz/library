@@ -1,0 +1,96 @@
+package tn.tp.bibliotheque.notificationservice.dto;
+
+import java.io.Serializable;
+import java.time.LocalDateTime;
+
+public class LoanNotification implements Serializable {
+
+    private Long loanId;
+    private Long bookId;
+    private String bookTitre;
+    private String nomUtilisateur;
+    private LocalDateTime dateEmprunt;
+    private LocalDateTime dateRetourPrevue;
+    private String typeNotification;
+
+    public LoanNotification() {
+    }
+
+    public LoanNotification(Long loanId, Long bookId, String bookTitre, String nomUtilisateur,
+                            LocalDateTime dateEmprunt, LocalDateTime dateRetourPrevue, String typeNotification) {
+        this.loanId = loanId;
+        this.bookId = bookId;
+        this.bookTitre = bookTitre;
+        this.nomUtilisateur = nomUtilisateur;
+        this.dateEmprunt = dateEmprunt;
+        this.dateRetourPrevue = dateRetourPrevue;
+        this.typeNotification = typeNotification;
+    }
+
+    // Getters et Setters
+    public Long getLoanId() {
+        return loanId;
+    }
+
+    public void setLoanId(Long loanId) {
+        this.loanId = loanId;
+    }
+
+    public Long getBookId() {
+        return bookId;
+    }
+
+    public void setBookId(Long bookId) {
+        this.bookId = bookId;
+    }
+
+    public String getBookTitre() {
+        return bookTitre;
+    }
+
+    public void setBookTitre(String bookTitre) {
+        this.bookTitre = bookTitre;
+    }
+
+    public String getNomUtilisateur() {
+        return nomUtilisateur;
+    }
+
+    public void setNomUtilisateur(String nomUtilisateur) {
+        this.nomUtilisateur = nomUtilisateur;
+    }
+
+    public LocalDateTime getDateEmprunt() {
+        return dateEmprunt;
+    }
+
+    public void setDateEmprunt(LocalDateTime dateEmprunt) {
+        this.dateEmprunt = dateEmprunt;
+    }
+
+    public LocalDateTime getDateRetourPrevue() {
+        return dateRetourPrevue;
+    }
+
+    public void setDateRetourPrevue(LocalDateTime dateRetourPrevue) {
+        this.dateRetourPrevue = dateRetourPrevue;
+    }
+
+    public String getTypeNotification() {
+        return typeNotification;
+    }
+
+    public void setTypeNotification(String typeNotification) {
+        this.typeNotification = typeNotification;
+    }
+
+    @Override
+    public String toString() {
+        return "LoanNotification{" +
+                "loanId=" + loanId +
+                ", bookTitre='" + bookTitre + '\'' +
+                ", nomUtilisateur='" + nomUtilisateur + '\'' +
+                ", typeNotification='" + typeNotification + '\'' +
+                '}';
+    }
+}

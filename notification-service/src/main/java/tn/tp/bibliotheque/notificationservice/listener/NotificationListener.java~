@@ -1,0 +1,4 @@
+package tn.tp.bibliotheque.notificationservice.listener;
+
+public class NotificationListener {
+}

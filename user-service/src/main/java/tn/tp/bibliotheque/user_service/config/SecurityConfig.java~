@@ -1,0 +1,4 @@
+package tn.tp.bibliotheque.user_service.config;
+
+public class SecurityConfig {
+}
