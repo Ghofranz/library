@@ -83,6 +83,16 @@
 			<scope>test</scope>
 		</dependency>
 
+<!--swagger-->
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.1.0</version>
+		</dependency>
+		<!--        test the exposed api of product service through swagger-->
+		<!--http://localhost:PRODUCT_PORT/swagger-ui.html-->
+
+
 	</dependencies>
 
 	<dependencyManagement>
