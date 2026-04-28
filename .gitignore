@@ -1,0 +1,14 @@
+# Maven
+**/target/
+
+# SonarQube
+.scannerwork/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Build/OS artifacts
+.DS_Store
+Thumbs.db
