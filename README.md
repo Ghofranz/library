@@ -53,15 +53,15 @@ search-service ──[WebClient]─► book-service + inventory-service
 
 ## Concepts couverts
 
-| TP | Concept | Implémentation |
-|---|---|---|
-| TP1 | REST Microservices | APIs REST sur tous les services |
-| TP2 | JPA + communication inter-services | `RestTemplate` loan → book |
-| TP3 | Service Discovery + Gateway | Eureka + Spring Cloud Gateway |
-| TP4 | Spring Security + JWT | Filtre JWT sur chaque service |
-| TP5 | Messagerie asynchrone | RabbitMQ loan → notification |
-| TP6 | Tests de contrat | Spring Cloud Contract producer/consumer |
-| TP7 | Programmation réactive | WebFlux Mono/Flux + Server-Sent Events |
+| Concept | Implémentation |
+|---|---|
+| REST Microservices | APIs REST sur tous les services |
+| JPA + communication inter-services | `RestTemplate` loan → book |
+| Service Discovery + Gateway | Eureka + Spring Cloud Gateway |
+| Spring Security + JWT | Filtre JWT sur chaque service |
+| Messagerie asynchrone | RabbitMQ loan → notification |
+| Tests de contrat | Spring Cloud Contract producer/consumer |
+| Programmation réactive | WebFlux Mono/Flux + Server-Sent Events |
 
 ---
 
@@ -276,6 +276,4 @@ library/
 ---
 
 ## Auteur
-
-Projet réalisé dans le cadre du cours **Développement Avancé** — ING-A2-GL 2025-2026.  
-Usage éducatif uniquement.
+ZOUAGHI Ghofran 
